@@ -1,6 +1,6 @@
 # Technical libruary
 
-Hi! Here we have some scientific documents for TextAI database.
+Hi! Here we have some e-documents for TextAI database.
 Pay attention, that every document has authors list, title and content inside of a text file.
 
 ## Sections
