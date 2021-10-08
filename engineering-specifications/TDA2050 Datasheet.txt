@@ -1,0 +1,60 @@
+Authors: STMicroelectronics
+
+Title: TDA2050. 32W Hi-Fi AUDIO POWER AMPLIFIER
+
+Content:
+
+DESCRIPTION
+The TDA 2050 is a monolithic integrated circuit in Pentawatt package, intended for use as an audio class AB audio amplifier.
+Thanks to its high power capability the TDA2050 is able to provide up to 35W true rms power into 4 ohm load @ THD = 10%, VS = ±18V, f = 1KHz and up to 32W into 8ohm load @ THD = 10%, VS = ±22V, f = 1KHz.
+Moreover, the TDA 2050 delivers typically 50W music power into 4 ohm load over 1 sec at VS= 22.5V, f = 1KHz.
+The high power and very low harmonic and crossover distortion (THD = 0.05% typ, @ VS = ±22V, PO = 0.1 to 15W, RL=8ohm, f = 100Hz to 15KHz) make the device most suitable for both HiFi and high class TV sets.
+
+SHORT CIRCUIT PROTECTION
+The TDA 2050 has an original circuit which limits the current of the output transistors.
+The maximum output current is a function of the collector emitter voltage; hence the output transistors work within their safe operating area.
+This function can therefore be considered as being peak power limiting rather than simple current limiting.
+It reduces the possibility that the device gets damaged during an accidental short circuit from AC output to ground.
+
+THERMAL SHUTDOWN
+The presence of a thermal limiting circuit offers the following advantages:
+1) An overload on the output (even if it is permanent), or an above limit ambient temperature can be easily tolerated since the Tj cannot be higher than 150°C.
+2) The heatsink can have a smaller factor of safety compared with that of a conventional circuit.
+   There is no possibility of device damage due to high junction temperature.
+   If for any reason, the junction temperature increases up to 150°C, the thermal shutdown simply reduces the power dissipation and the current consumption.
+
+MOUNTING INSTRUCTIONS
+The power dissipated in the circuit must be removed by adding an external heatsink.
+Thanks to the PENTAWATT package, the
+heatsink mounting operation is very simple, a
+screw or a compression spring (clip) being sufficient. Between the heatsink and the package is
+better to insert a layer of silicon grease, to optimize the thermal contact; no electrical isolation is
+needed between the two surfaces. Fig. 18 shows
+an example of heatsink.
+
+APPENDIX A
+
+A.1 - MUSIC POWER CONCEPT
+
+MUSIC POWER is (according to the IEC clauses n.268-3 of Jan 83) the maximum power which the amplifier is capable of producing across the rated load resistance (regardless of non linearity) 1 sec after the application of a sinusoidal input signal of frequency 1 KHz.
+According to this definition our method of measurement comprises the following steps:
+- Set the voltage supply at the maximum operating value;
+- Apply a input signal in the form of a 1KHz tone burst of 1 sec duration: the repetition period of the signal pulses is 60 sec;
+- The output voltage is measured 1 sec from the start of the pulse;
+- Increase the input voltage until the output signal shows a THD=10%;
+- The music power is then V2 out /RL, where Vout is the output voltage measured in the condition of point 4 and RL is the rated load impedance;
+The target of this method is to avoid excessive dissipation in the amplifier.
+
+A.2 - INSTANTANEOUS POWER
+
+Another power measurement (MAXIMUM INSTANTANEOUS OUTPUT POWER) was proposed by IEC in 1988 (IEC publication 268-3 subclause 19.A).
+We give here only a brief extract of the concept, and a circuit useful for the measurement.
+The supply voltage is set at the maximum operating value.
+The test signal consists of a sinusoidal signal whose frequency is 20 Hz, to which are added alternate positive and negative pulses of 50 µs duration and 500 Hz repetition rate.
+The amplitude of the 20 Hz signal is chosen to drive the amplifier to its voltage clipping limits, while the amplitude of the pulses takes the amplifier alternately into its current-overload limits.
+
+The load network consists of a 40 µF capacitor, in series with a 1 ohm resistor.
+The capacitor limits the current due to the 20 Hz signal to a low value, whereas for he short pulses the effective load impedance is of the order of 1 ohm, and a high output current is produced.
+Using this signal and load network the measurement may be made without causing excessive dissipation in the amplifier.
+The dissipation in the 1 ohm resistor is much lower than a rated output power of the amplifier, because the duty-cycle of the high output current is low.
+By feeding the amplifier output voltage to the Xplates of an oscilloscope, and the voltage across the 1 ohm resistor (representing the output current) to the Y=plates, it is possible to read on the display the value of the maximum instantaneous output power.

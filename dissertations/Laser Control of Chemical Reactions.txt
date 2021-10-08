@@ -1,0 +1,10 @@
+Authors: RICHARD N. ZARE
+
+Title: Laser Control of Chemical Reactions
+
+Content:
+
+Experiments show how product pathways can be controlled by irradiation with one or more laser beams during individual bimolecular collisions or during unimolecular decompositions.
+For bimolecular collisions, control has been achieved by selective excitation of reagent vibrational modes, by control of reagent approach geometry, and by control of orbital alignment.
+For unimolecular reactions, control has been achieved by quantum interference between different reaction pathways connecting the same initial and final states and by adjusting the temporal shape and spectral content of ultrashort, chirped pulses of radiation.
+These collision-control experiments deeply enrich the understanding of how chemical reactions occur.

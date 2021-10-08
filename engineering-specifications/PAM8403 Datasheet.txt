@@ -1,0 +1,73 @@
+Authors: Diodes Incorporated
+
+Title: PAM8403. FILTERLESS 3W CLASS-D STEREO AUDIO AMPLIFIER
+
+Content:
+
+Description
+The PAM8403 is a 3W, class-D audio amplifier.
+It offers low THD+N, allowing it to achieve high-quality sound reproduction.
+The new filterless architecture allows the device to drive the speaker directly, requiring no low-pass output filters, thus saving system cost and PCB area.
+With the same numbers of external components, the efficiency of the PAM8403 is much better than that of Class-AB cousins.
+It can extend the battery life, which makes it well-suited for portable applications.
+The PAM8403 is available in SOP-16 package.
+
+Features 
+3W Output at 10% THD with a 4Ω Load and 5V Power Supply
+Filterless, Low Quiescent Current and Low EMI
+Low THD+N
+Superior Low Noise
+Efficiency up to 90%
+Short Circuit Protection
+Thermal Shutdown
+Few External Components to Save the Space and Cost
+Pb-Free Package
+
+Applications
+LCD Monitors / TV Projectors
+Notebook Computers
+Portable Speakers
+Portable DVD Players, Game Machines
+Cellular Phones/Speaker Phones
+
+Application Note
+1. When the PAM8403 works with LC filters, it should be connected with the speaker before it's powered on, otherwise it will be damaged easily.
+2. When the PAM8403 works without LC filters, it's better to add a ferrite chip bead at the outgoing line of speaker for suppressing the possible electromagnetic interference.
+3. The recommended operating voltage is 5.5V. When the PAM8403 is powered with four battery cells, it should be noted that the voltage of four new dry or alkaline batteries is over 6.0V,
+   higher than its operation voltage, which will probably damage the device.
+   Therefore, it's recommended to use either four Ni-MH (Nickel Metal Hydride) rechargeable batteries or 3 dry or alkaline batteries.
+4. One should not make the input signal too large. Large signal can cause the clipping of output signal when increasing the volume. This will damage the device because of big gain of the PAM8403.
+5. When testing the PAM8403 without LC filters by using resistor instead of speaker as the output load, the test results, e.g. THD or efficiency, will be worse than those of using speaker as load.
+
+Maximum Gain
+As shown in block diagram (Page 2), the PAM8403 has two internal amplifier stages.
+The first stage's gain is externally configurable, while the second stage's is internally fixed.
+The closed-loop gain of the first stage is set by selecting the ratio of RF to RI while the second stage's gain is fixed at 2x.
+The output of amplifier 1 serves as the input to amplifier 2, thus the two amplifiers produce signals identical in magnitude, but different in phase by 180°.
+
+Mute Operation
+The MUTE pin is an input for controlling the output state of the PAM8403.
+A logic low on this pin disables the outputs, and a logic high on this pin enables the outputs.
+This pin may be used as a quick disable or enable of the outputs without a volume fade.
+Quiescent current is listed in the electrical characteristic table.
+The MUTE pin can be left floating due to the internal pull-up.
+
+Shutdown Operation
+In order to reduce power consumption while not in use, the PAM8403 contains shutdown circuitry to turn off the amplifier's bias circuitry.
+This shutdown feature turns the amplifier off when logic low is applied to the SHDN pin.
+By switching the SHDN pin connected to GND, the PAM8403 supply current draw will be minimized in idle mode.
+The SHDN pin can be left floating due to the internal pull-up.
+
+Power Supply Decoupling
+The PAM8403 is a high performance CMOS audio amplifier that requires adequate power supply decoupling to ensure the output THD and PSRR as low as possible.
+Power supply decoupling affects low frequency response.
+Optimum decoupling is achieved by using two capacitors of different types targeting to different types of noise on the power supply leads.
+For higher frequency transients, spikes, or digital hash on the line, a good low equivalent-seriesresistance (ESR) ceramic capacitor, typically 1.0μF, works best, placing it as close as possible to the device VDD terminal.
+For filtering lower frequency noise signals, a large capacitor of 20μF (ceramic) or greater is recommended, placing it near the audio power amplifier.
+
+Over Temperature Protection
+Thermal protection on the PAM8403 prevents the device from damage when the internal die temperature exceeds +140°C.
+There is a 15 degree tolerance on this trip point from device to device.
+Once the die temperature exceeds the thermal set point, the device outputs are disabled.
+This is not a latched fault. The thermal fault is cleared once the temperature of the die is reduced by 30°C.
+This large hysteresis will prevent motor boating sound well and the device begins normal operation at this point without external system intervention.

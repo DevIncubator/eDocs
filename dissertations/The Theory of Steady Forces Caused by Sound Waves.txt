@@ -1,0 +1,11 @@
+Authors: P. J. Westervelt
+
+Title: The Theory of Steady Forces Caused by Sound Waves
+
+Content:
+
+A general expression is derived for the force owing to radiation pressure acting on an object of any shape and having an arbitrary normal boundary impedance.
+It is shown that boundary layer losses may lead to forces that are several orders of magnitude greater than the forces owing to classical radiation pressure.
+Steady forces arising from an asymmetric wave form are compared with the other forces.
+A sound wave, consisting of equal parts of fundamental and second harmonic components,
+can cause forces ten or more orders of magnitude greater than the forces owing to radiation pressure to be exerted on small particles.

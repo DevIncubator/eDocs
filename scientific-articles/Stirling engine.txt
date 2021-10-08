@@ -1,0 +1,15 @@
+Authors: Ahmed Bilal Awana
+
+Title: Comparative analysis of dish Stirling engine and photovoltaic technologies: Energy and economic perspective
+
+Content:
+
+Solar energy can be harnessed by direct conversion of solar energy to electrical energy by using photovoltaic (PV) technology or with the help of thermodynamic cycle by using concentrated solar power (CSP) technologies.
+The goal of this paper is to perform detailed comparative analysis for the two solar technologies namely: PV and dish Stirling engine (DSE).
+In order to ensure a fair comparison, the two systems are designed for the same rated capacity of 1 MW for Tabuk, Saudi Arabia.
+The average values of direct normal irradiance (DNI) and global horizontal irradiance (GHI) in Tabuk are 7.43 kWh/m2/day and 6.31 kWh/m2/day, respectively.
+The two technologies are analyzed based on several performance indicator factors such as capacity factor (CF), solar to electric efficiency, energy output, levelized electricity cost (LEC), and net present value (NPV).
+The comparative analysis of the two technologies shows that PV system has 6.9% better CF and 54% more energy output compared to DSE system.
+The LEC of PV systems is 3.39 ¢/kWh which is much better than the 11.74 ¢/kWh from the DSE system.
+The NPV of the PV system is positive while DSE system has negative NPV.
+This paper present useful insight of the two technologies which is helpful to choose a solar power technology for a power project.

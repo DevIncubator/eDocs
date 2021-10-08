@@ -1,0 +1,21 @@
+Authors: Dieu Tien Bui,
+         Paraskevas Tsangaratos,
+         Viet-Tien Nguyen,
+         Ngo Van Liem,
+         Phan Trong Trinh
+
+Title: Comparing the prediction performance of a Deep Learning Neural Network model with conventional machine learning models in landslide susceptibility assessment
+
+Content:
+
+The main objective of the current study was to introduce a Deep Learning Neural Network (DLNN) model in landslide susceptibility assessments and compare its predictive performance with state-of-the-art machine learning models.
+The efficiency of the DLNN model was estimated for the Kon Tum Province, Viet Nam, an area characterized by the presence of landslide phenomena.
+Nine landslide related variables, elevation, slope angle, aspect, land use, normalized difference vegetation index, soil type, distance to faults, distance to geology boundaries,
+lithology cover, and 1,657 landslide locations, were used so as to produce the training and validation datasets during the landslide susceptibility assessment.
+The Frequency Ratio method was used so as to estimate the existing relation between the landslide-related variables and the presence of landslides, assigning to each variable class a weight value.
+Based on the results concerning the predictive ability of the landslide related variables which was evaluated using the Information ration method, all variables were further processed since they appear as highly predictive.
+The learning ability of the DLNN model has been evaluated and compared with a Multi Layer Preceptron Neural Network, a Support Vector Machine,
+a C4.5-Decision Tree model and a Random Forest model using the training dataset, whereas the predictive performance of each model has been evaluated and compared using the validation datasets.
+In order to evaluate their learning and predictive capacity of each model the classification accuracy, the sensitivity, the specificity and the area under the success and predictive rate curves (AUC) were calculated.
+Results showed that the proposed DLNN model had a higher performance than the four benchmark models. Although DLNN has been used seldom in landslide susceptibility assessments,
+the study highlights that the usage of deep learning approach could be considered as a satisfactory alternative approach for landslide susceptibility mapping.

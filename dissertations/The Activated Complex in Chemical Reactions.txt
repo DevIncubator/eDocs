@@ -1,0 +1,11 @@
+Authors: Henry Eyring
+
+Title: The Activated Complex in Chemical Reactions
+
+Content:
+
+The calculation of absolute reaction rates is formulated in terms of quantities which are available from the potential surfaces which can be constructed at the present time.
+The probability of the activated state is calculated using ordinary statistical mechanics.
+This probability multiplied by the rate of decomposition gives the specific rate of reaction.
+The occurrence of quantized vibrations in the activated complex, in degrees of freedom which are unquantized in the original molecules, leads to relative reaction rates for isotopes quite different from the rates predicted using simple kinetic theory.
+The necessary conditions for the general statistical treatment to reduce to the usual kinetic treatment are given.
