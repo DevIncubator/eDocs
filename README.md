@@ -1,4 +1,4 @@
-# Technical libruary
+# eDocs
 
 Hi! Here we have some e-documents for TextAI database.
 Pay attention, that every document has authors list, title and content inside of a text file.
